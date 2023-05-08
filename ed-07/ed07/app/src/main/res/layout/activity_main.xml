@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="129dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/aaa1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:text="Email"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="38dp"
+        android:text="Message"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Análise e Desenvolvimento de Sistemas"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="192dp"
+        android:layout_height="17dp"
+        android:text="Posts     Followers     Following"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="191dp"
+        android:layout_height="23dp"
+        android:text="    3              948                 67"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:text="Follow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="João Vitor da Silva"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="159dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="172dp"
+        android:layout_height="19dp"
+        android:text="Lorem Ipsum"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        app:srcCompat="@android:drawable/ic_menu_more"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="106dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/gggfg_removebg_preview"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="106dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/gggfg_removebg_preview"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="106dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/gggfg_removebg_preview"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+        app:srcCompat="@android:drawable/ic_popup_reminder"
+        tools:layout_editor_absoluteX="346dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+        app:srcCompat="@android:drawable/ic_dialog_dialer"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_20200802_wa0240" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="125dp"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/img_20210816_wa0167"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/img_20210911_wa0037"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="150dp"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/whatsapp_image_2021_04_26_at_16_48_14__1_"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
