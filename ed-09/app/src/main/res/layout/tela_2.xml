@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="69dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/television"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="787dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="45dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="793dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="88dp"
+        android:layout_height="19dp"
+        android:text="Nutri Tracker
+"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="824dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="79dp"
+        android:layout_height="19dp"
+        android:text="Consultation
+"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="824dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="130px"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/order"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="793dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="44dp"
+        android:layout_height="18dp"
+        android:text="Profile
+"
+        tools:layout_editor_absoluteX="357dp"
+        tools:layout_editor_absoluteY="825dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="41dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/messenger"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="793dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="43dp"
+        android:layout_height="19dp"
+        android:text="Carbs
+"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="824dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:text="Book Appointment"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="33dp"
+        android:layout_height="21dp"
+        android:text="4.0"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="182dp"
+        android:layout_height="30dp"
+        android:text="Ms. Jiya Sharma"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:text="Consultation"
+        android:textColor="#000000"
+        android:textSize="44dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <view
+            android:id="@+id/view"
+            class="androidx.appcompat.widget.ActionMenuView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/searching" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="?attr/actionBarDivider" />
+
+    <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="67dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/shopping_cart"
+            tools:layout_editor_absoluteX="178dp"
+            tools:layout_editor_absoluteY="700dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="216dp"
+        android:layout_height="19dp"
+        android:text="Lorem Ipsum - 27y of experience
+"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="692dp" />
+
+    <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shopping" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="33dp"
+        android:layout_height="21dp"
+        android:text="4.0"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="182dp"
+        android:layout_height="33dp"
+        android:text="Ms. Jiya Sharma "
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="223dp"
+        android:layout_height="18dp"
+        android:text="Lorem Ipsum - 30y of experience
+"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="229dp"
+        android:layout_height="17dp"
+        android:text="Lorem Ipsum - 27y of experience
+"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="137dp"
+        android:layout_height="33dp"
+        android:text="Dr. Raj Sing"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="33dp"
+        android:layout_height="21dp"
+        android:text="4.0"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="33dp"
+        android:layout_height="21dp"
+        android:text="4.0"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#F6F6F6"
+        android:text="Book Consutation"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Book Consutation"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Book Consutation"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#FFC107"
+        android:text="Book Appointment"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#FFC107"
+        android:text="Book Appointment"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#FFC107"
+        android:text="Book Appointment"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="81dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/doctor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="82dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/doctor__2_"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="82dp"
+        android:layout_height="102dp"
+        app:srcCompat="@drawable/doctor__1_"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
